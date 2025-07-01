@@ -1,0 +1,12 @@
+Rough draft of the project
+
+Solana bridges use a lock-and-mint/burn-and-unlock mechanism:
+
+1. Locking: Assets are locked in a smart contract on the source chain (e.g., Ethereum).
+
+2. Minting: Equivalent wrapped tokens are minted on Solana.
+
+3. Burning: To return assets, wrapped tokens are burned on Solana.
+
+4. Unlocking: Original assets are released on the source chain.
+(This ensures a 1:1 asset peg) .
